@@ -12,9 +12,9 @@ import { BrowserRouter, Route } from "react-router-dom";
 import LoginPage from "./components/LoginPage";
 import Main from "./components/Main";
 
-
 ReactDOM.render(
   <>
+    {/* Simon says Your codes are awesome */}
     <BrowserRouter>
       <switch>
         <Route path="/" component={LoginPage} exact />
